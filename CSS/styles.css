@@ -84,10 +84,10 @@
             padding-top: 5%;
             padding-left: 5%;
             padding-right: 5%;
-            background-image: url("background.png"); border-radius: 5%;
+            background-image: url("background.jpg"); border-radius: 5%;
             background-size: 40%;
             border-radius: 5%;
-            webkit-border-radius: 5%;
+            
             background-repeat: no-repeat;
             background-position: center;
         }
@@ -97,6 +97,8 @@
             margin: 0.5%;
             margin-left: 30%;
             margin-right: 30%;
+            transition: all .2s ease-in-out;
+           
 
         }
         .beschreibung:hover {
@@ -105,11 +107,14 @@
                 margin-left: 28.5%;
                 margin-right: 28.5%;
                 border-radius: 30px 5px 15px 50px;
+                transform:scale(1)
+               
         }
         .arbeitserfahrung {
             background-color: #c04e25;
             margin-left: 30%;
             margin-right: 30%;
+            transition: all .2s ease-in-out;
             }
         .arbeitserfahrung:hover {
             background-color: #E45826;
@@ -117,12 +122,14 @@
             margin-left: 28.5%;
             margin-right: 28.5%;
             border-radius: 15px 50px 30px 5px;
+            transform:scale(1)
             
         }
         .faehigkeiten {
             background-color: #c04e25;
             margin-left: 30%;
             margin-right: 30%;
+            transition: all .2s ease-in-out;
             
             }
         .faehigkeiten:hover {
@@ -131,6 +138,7 @@
             margin-left: 28.5%;
             margin-right: 28.5%;
             border-radius: 30px 5px 15px 50px;
+            transform:scale(1)
         }
         .liebling {
             background-color: #c2b49b;
@@ -138,6 +146,7 @@
             color: #1B1A17;
             margin-left: 30%;
             margin-right: 30%;
+            transition: all .2s ease-in-out;
         }
         .liebling:hover {
             background-color: #E6D5B8;
@@ -145,13 +154,14 @@
             margin-left: 28.5%;
             margin-right: 28.5%;
             border-radius: 15px 50px 30px 5px;
-            
+            transform:scale(1)
         }
         .skill2 {
             background-color: #c04e25;
             text-align: center;
             margin-left: 30%;
             margin-right: 30%;
+            transition: all .2s ease-in-out;
         }
         .skill2:hover {
             background-color: #E45826;
@@ -159,6 +169,7 @@
             margin-left: 28.5%;
             margin-right: 28.5%;
             border-radius: 30px 5px 15px 50px;
+            transform:scale(1)
         }
         .socialmedia {
             background-color: #F0A500 ;
@@ -174,4 +185,18 @@
             margin-right: 30%;
             border-radius: 5px 15px 15px 15px;
         }
-        
+        .form {
+            background-color: #c04e25;
+            text-align: center;
+            margin-left: 30%;
+            margin-right: 30%;
+            transition: all .2s ease-in-out;
+        }
+        .form:hover {
+            background-color: #E45826;
+            text-transform: uppercase;
+            margin-left: 28.5%;
+            margin-right: 28.5%;
+            border-radius: 30px 5px 15px 50px;
+            transform:scale(1)
+        }
